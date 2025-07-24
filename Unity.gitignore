@@ -1,0 +1,100 @@
+# 此 .gitignore 文件应放置在 Unity 项目目录的根目录下
+#
+# 最新版本可从以下地址获取：
+# https://github.com/github/gitignore/blob/main/Unity.gitignore
+#
+.utmp/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+*.log
+
+# 默认情况下，Unity 支持 Blender 资源导入，*.blend1 文件无需提交到版本控制。
+*.blend1
+*.blend1.meta
+
+# MemoryCaptures 可能会占用过大空间
+# 且可能包含极度敏感数据
+/[Mm]emoryCaptures/
+
+# 录制文件可能占用过大空间
+/[Rr]ecordings/
+
+# 如需忽略 Asset Store 工具插件，请取消此行注释
+# /[Aa]ssets/AssetStoreTools*
+
+# JetBrains Rider 插件自动生成的文件
+/[Aa]ssets/Plugins/Editor/JetBrains*
+# JetBrains Rider 个人层设置
+*.DotSettings.user
+
+# Visual Studio 缓存目录
+.vs/
+
+# Gradle 缓存目录
+.gradle/
+
+# 自动生成的 VS/MD/Consulo 解决方案和项目文件
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D 生成的 meta 文件
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D 在崩溃报告中生成的文件
+sysinfo.txt
+
+# Mono 自动生成的文件
+mono_crash.*
+
+# 构建文件
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Crashlytics 生成的文件
+crashlytics-build.properties
+
+# TestRunner 生成的文件
+InitTestScene*.unity*
+
+# Addressables 默认忽略项（用户自定义前）
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+# 默认情况下，Addressables 内容构建会生成 addressables_content_state.bin 文件
+# 存放在平台特定子文件夹中，例如：
+# /Assets/AddressableAssetsData/OSX/addressables_content_state.bin
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# Visual Scripting 自动生成的文件
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# 由 Play Mode 测试自动生成的场景
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
