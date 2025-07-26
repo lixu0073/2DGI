@@ -2,11 +2,13 @@
 
 todo：
 
-1.光栅无关的改用compute shader
+1.TAA混合鬼影待解决
 
-2.分layer提取亮度绘制缝隙透光
+2.光栅无关的改用compute shader
 
-3.。。。。。。。
+3.分layer提取亮度绘制缝隙透光
+
+3.
 
 day:
 
